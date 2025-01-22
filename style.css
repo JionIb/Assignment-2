@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-fonts{
+  font-family: "Quicksand";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.bann{
+    display: flex;
+    background-color: rgba(247, 247, 247, 1);
+}
+.bann-1{
+    display: flex;
+}
+#img-1{
+    width: 30px;
+    height: 30px;
+    margin-left: 140px;
+    margin-top: 5px;
+}
+#bann-2{
+   margin-top: 5px;
+   margin-bottom: 0%;
+}
+#li-1{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 12px; 
+}
+#il-1{
+    font-weight: bold;
+    color:rgba(254, 163, 1, 1) ;}
+    
+#il-2{
+    color: rgba(1, 172, 253, 1);}
+#il-3{
+  color: rgba(5, 212, 223, 1);  }
+#il-4{
+    color: rgba(93, 88, 239, 1);}
+.nav-2{
+    margin-left: 190px;
+    margin-right: 300px;
+}
+.btn-1{
+    height: 30px;
+    width: 120px;
+    color: aliceblue;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    border-radius: 12px;
+    padding: 10 10;
+    margin-top: 10px;
+}
+.ak{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0%;
+}
+#bl-1{
+    color: rgba(254, 163, 1, 1);
+}
+#bl-2{
+    color: rgba(1, 172, 253, 1);
+}
+.bl-3{
+    color: rgba(17, 17, 17, 1);
+    font-size: 12px;
+}
+.img-2{
+    width: 300px;
+    height: 350px;
+
+}
+.di-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   margin: auto;
+    background-color: rgba(247, 247, 247, 1);
+    }  
+     
+.btn-2{
+    height: 30px;
+    width: 120px;
+    color: aliceblue;
+    background-color: rgba(17, 17, 17, 1);
+    border: none;
+    border-radius: 12px;
+    padding: 10 10;
+    margin-top: 10px;
+}
+.pa-1{
+    padding-left: 140px;
+}
+.pa-2{
+    padding-left: 170px;
+}
