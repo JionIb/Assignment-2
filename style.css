@@ -10,6 +10,7 @@ body{
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    max-width: 1300px;
 }
 .bann{
     display: flex;
@@ -185,7 +186,7 @@ font-weight: bold;
 }
 .mh-bg{
     background-image: url(assets/bg.png);
-    background-color: rgba(222, 245, 255, 1);
+    background-image: linear-gradient(#fff,#FEA301);
 }
 #ji{
     font-weight: bold;
@@ -212,6 +213,7 @@ background-color: white;
 width: 340px;
 border-radius: 12px;
 grid-row: span 2;
+margin-left: 120px;
 }
 #all-bt1{
     background-color: rgba(60, 216, 232, 1);
@@ -231,13 +233,17 @@ margin-left: 50px;
 .common{
     box-shadow: 0px 0px;
     background-color: white;
-    width: 201px;
+    width: 171px;
     border-radius: 12px;
-    height: 280px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
 }
 .common-img{
-    height: 150px;
-    width: 200px;
+    height: 120px;
+    width: 170px;
     border-radius: 12px;
 }
 .common-btn{
@@ -249,4 +255,79 @@ margin-left: 50px;
     width: 110px;
     height: 28px;
     border-radius: 18px;
+    
+}
+.common-h6{
+    font-weight: bolder;
+    font-size: 10px;
+}
+#jiu{
+    margin-right: 800px;
+
+}
+#btn00{
+    background-color: black;
+    border: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 10px;
+    font-weight: Medium;
+    width: 120px;
+    height: 28px;
+    border-radius: 8px;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    padding-left: 150px;
+    padding-top: 50px;
+    background-color: rgba(93, 84, 112, 1);
+}
+.foot-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+#pp-1{
+    font-weight: 200;
+    font-size: 10px;
+    color: white;
+    grid-column: span 2;
+    margin-top: 0px;
+   
+}
+#pp-2{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-right: 80px;
+   
+}
+#logo{
+    margin-top: 15px;
+}
+#ab-3{
+    color: white;
+    font-size: 14px;
+    padding-left: 35px;
+}
+.ul-9{
+    list-style: none;
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+   
+}
+#ku{
+    color: white;
+    font-size: 15px;
+}
+.im-4{
+    height: 22px;
+    width: 22px;
+
 }
