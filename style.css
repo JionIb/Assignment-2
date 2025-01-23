@@ -329,5 +329,97 @@ margin-left: 50px;
 .im-4{
     height: 22px;
     width: 22px;
+}
+
+@media screen and (max-width:576px) {
+    .hide{
+        display: none;
+    }
+    .di-1{
+        display: grid;
+        
+        grid-template-columns: repeat(1,1fr);
+        width: 576px;
+        margin:0%;
+        width: 576px;
+        flex-direction: column-reverse;
+        
+    }
+    .pa-1{
+       padding-left: 0px;
+        max-width: 575px;
+        max-height: fit-content;
+    }
+    .ak{
+        margin: none;
+        font-size: 20px;
+    }
+    .bl-3{
+        margin: none;
+        font-size: 7px;
+        margin: none;
+    }
+    .img-2{
+        width: 170px;
+        height: 170px;
+        
+    }
+    .pa-2{
+        padding-left: 0px;
+    }
+    .bann-1{
+       margin-left: -140px;
+      flex-direction: column;
+    }
+    .bann{
+        flex-direction: column;
+    }
+   .ib-2{
+  flex-direction: column;
+  gap: 10px;
+
+   }
+   .ib-1{
+    padding-left: 0%;
+   }
+   #circu{
+    display: none;
+   }
+   #ji{
+    padding-left: 8%;
+   }
+   .all{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+   }
+   .all-1{
+    margin-left: 0px;
+    width: 200px;
+   }
+   #all-img1{
+    height: 200px;
+    width: 200px;
+   }
+   .common{
+    margin-left: 0px;
+   }
+   #btn00{
+    margin-left: 0px;
+   }
+   .foot{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 0px;
+   }
+   body{
+
+    max-width: 576px;
+}
+.nav-2{
+    display: none;
+}
+.btn-1{
+    display: none;
+}
 
 }
